@@ -79,3 +79,34 @@ This milestone will be covered in a **mentor-led lesson**, where your mentor wil
 2. **Creating the User Controller**  
 3. **Setting up Multer for file uploads**  
 
+---
+
+## **Milestone 5 📝**  
+
+## 📌 **Overview**  
+Welcome to **Milestone 5** of our e-commerce application development! In this phase, we will focus on creating the **Sign-Up Page** and implementing **form validation** to ensure a smooth user experience.  
+
+## 🛠️ **Key Features**  
+
+### 📝 **What’s a Sign-Up Page?**  
+- The **Sign-Up Page** allows users to enter their details to create an account.  
+- It typically includes fields like:  
+  - **Name**  
+  - **Email**  
+  - **Password**  
+- Once the user fills out the form, the data is sent to the server for processing.  
+- We’ll design a **clean and user-friendly** sign-up form.  
+
+### ✅ **What is Form Validation?**  
+- **Form Validation** ensures that the information users enter is in the correct format.  
+- Key validation checks include:  
+  - **Email format validation** (ensuring a valid email structure).  
+  - **Password validation** (checking length and security criteria).  
+- Validation helps prevent errors and ensures that the backend receives clean data.  
+
+## 📝 **Steps for Milestone 5**  
+In this milestone, you will work on the **frontend**, while your mentor will guide you through:  
+1. **Building the Sign-Up Page using HTML and CSS**.  
+2. **Adding form validation to ensure users input valid data**.  
+
+---
