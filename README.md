@@ -111,29 +111,35 @@ In this milestone, you will work on the **frontend**, while your mentor will gui
 
 ---
 
-Milestone 6 🔒
-📌 Overview
-Welcome to Milestone 6 of our e-commerce application development! In this phase, we focus on encrypting user passwords to enhance security and protect user data.
+Here’s your **Milestone 6** in the same format as your previous milestones:  
 
-🛠️ Key Features
+---
 
-🔑 Why Encrypt Passwords?
+### Milestone 6 🔒  
+📌 **Overview**  
+Welcome to Milestone 6 of our e-commerce application development! In this phase, we focus on encrypting user passwords to enhance security and protect user data.  
 
-Protect User Data: Keeps passwords safe if hackers access the database.
-Privacy: Ensures user passwords aren’t visible to anyone.
-Compliance: Follows security laws like GDPR and PCI-DSS.
-Stops Password Theft: Encrypted passwords can’t be easily stolen or guessed.
-📝 Steps for Milestone 6
-This milestone will be covered in a mentor-led lesson, where your mentor will guide you through:
+🛠️ **Key Features**  
 
-1️⃣ Encrypt the Password
+🔑 **Why Encrypt Passwords?**  
+- **Protect User Data**: Keeps passwords safe if hackers access the database.  
+- **Privacy**: Ensures user passwords aren’t visible to anyone.  
+- **Compliance**: Follows security laws like GDPR and PCI-DSS.  
+- **Stops Password Theft**: Encrypted passwords can’t be easily stolen or guessed.  
 
-Use bcrypt to hash the user's password during signup.
-Save the hashed password in the database instead of plain text.
-2️⃣ Store Complete User Data
+📝 **Steps for Milestone 6**  
+This milestone will be covered in a mentor-led lesson, where your mentor will guide you through:  
 
-Save all the user's data (e.g., name, email, etc.) in the database.
-Ensure that the password remains encrypted for security.
-🚀 Get ready to strengthen your authentication system with secure password encryption!
+1️⃣ **Encrypt the Password**  
+- Use **bcrypt** to hash the user's password during signup.  
+- Save the hashed password in the database instead of plain text.  
+
+2️⃣ **Store Complete User Data**  
+- Save all the user's data (e.g., name, email, etc.) in the database.  
+- Ensure that the password remains **encrypted** for security.  
+
+🚀 Get ready to strengthen your authentication system with **secure password encryption**!  
+
+---
 
 
