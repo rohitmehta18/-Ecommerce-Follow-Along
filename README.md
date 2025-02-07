@@ -115,7 +115,7 @@ Here’s your **Milestone 6** in the same format as your previous milestones:
 
 ---
 
-### Milestone 6 🔒  
+## Milestone 6 🔒  
 📌 **Overview**  
 Welcome to Milestone 6 of our e-commerce application development! In this phase, we focus on encrypting user passwords to enhance security and protect user data.  
 
