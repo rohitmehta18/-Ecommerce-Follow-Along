@@ -143,3 +143,44 @@ This milestone will be covered in a mentor-led lesson, where your mentor will gu
 ---
 
 
+## **Milestone 7 🔑**  
+
+### 📌 Overview  
+Welcome to **Milestone 7** of our e-commerce application development! In this phase, we focus on creating a **backend login endpoint**, validating user credentials, and verifying encrypted passwords stored in the database.  
+
+### 🛠️ Key Features  
+
+### 📝 **Why is Login Authentication Important?**  
+- **Secure Access**: Ensures only registered users can access their accounts.  
+- **Data Protection**: Prevents unauthorized access to user information.  
+- **User Experience**: Allows users to log in seamlessly with their credentials.  
+
+### 🔑 **How Login Authentication Works**  
+
+1️⃣ **User Enters Credentials**  
+   - The user provides their **email/username** and **password** on the login page.  
+
+2️⃣ **Fetch User Data from Database**  
+   - The backend retrieves the user record based on the provided email/username.  
+   - If the user is not found, return an error: `"User does not exist."`  
+
+3️⃣ **Compare Encrypted Passwords**  
+   - Hash the input password using **bcrypt** (same algorithm used during signup).  
+   - Compare it with the **stored hashed password** in the database.  
+   - If they match, the user is authenticated; if not, return an error.  
+
+### 📝 **Steps for Milestone 7**  
+
+1. **Create a Login Endpoint**  
+   - Accept user credentials (**email/username and password**).  
+   - Retrieve the corresponding user from the database.  
+
+2. **Validate Password**  
+   - Use **bcrypt** to compare the entered password with the stored hashed password.  
+   - If the password matches, return a **successful login response**.  
+   - If incorrect, return an **error message**.  
+
+🚀 Get ready to implement **secure and efficient user authentication**!  
+
+---
+
