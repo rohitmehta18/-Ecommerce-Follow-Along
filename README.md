@@ -184,3 +184,45 @@ Welcome to **Milestone 7** of our e-commerce application development! In this ph
 
 ---
 
+## **Milestone 8 🛍️**  
+
+### 📌 Overview  
+Welcome to **Milestone 8** of our e-commerce application development! In this phase, we focus on creating a **frontend card component for products** and designing the **homepage** to display these product cards dynamically.  
+
+### 🛠️ Key Features  
+
+### 🎨 **Why Create Card Components?**  
+- **Showcase Products Effectively**: Displays product details in a clear and visually appealing format.  
+- **Reusable Design**: Can be used across multiple pages, such as product listings and recommendations.  
+- **Improved User Experience**: Provides an intuitive way for users to browse and interact with products.  
+- **Organized Layout**: Keeps the homepage structured, clean, and user-friendly.  
+
+### 🖼️ **How to Display a Single Card for Multiple Products?**  
+1️⃣ **Create a Dynamic Component**  
+   - Design a single **Product Card Component** that accepts **product details as props**.  
+
+2️⃣ **Use Array Mapping**  
+   - Fetch the product list and iterate over it using **map()** to render a card for each product.  
+
+3️⃣ **Pass Data Dynamically**  
+   - Ensure each card receives unique product information (**name, price, image, etc.**).  
+
+4️⃣ **Maintain Consistency**  
+   - Keep a uniform layout across all product cards to enhance readability and usability.  
+
+### 📝 **Steps for Milestone 8**  
+
+#### 1️⃣ **Create the Product Card Component**  
+- Design a **reusable** card component that includes:  
+  - **Product Image**  
+  - **Product Name**  
+  - **Price**  
+  - **Add to Cart Button**  
+
+#### 2️⃣ **Design the Homepage Layout**  
+- Implement a **grid layout** or **flexbox** to display multiple product cards neatly.  
+- Ensure the design is **responsive** for different screen sizes.  
+
+🚀 Get ready to **build an interactive product showcase** for your e-commerce application!  
+
+---  
