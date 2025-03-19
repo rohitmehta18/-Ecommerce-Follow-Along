@@ -14,11 +14,21 @@ How to Run the Project
 
 🔥 Overview
 
-This project is a full-fledged e-commerce web application, built progressively through 20 structured milestones to develop both frontend and backend functionalities. 🏗️🚀
+This project is a full-fledged e-commerce web application, built progressively through 21 structured milestones to develop both frontend and backend functionalities. 🏗️🚀
 
 🛠️ Tech Stack
 
-Frontend: React.js ⚛️, Tailwind CSS 🎨Backend: Node.js 🌿, Express.js 🚀Database: MongoDB 🍃File Uploads: Multer 📂Password Security: bcrypt 🔒Version Control: Git & GitHub 🐙
+Frontend: React.js ⚛️, Tailwind CSS 🎨
+
+Backend: Node.js 🌿, Express.js 🚀
+
+Database: MongoDB 🍃
+
+File Uploads: Multer 📂
+
+Password Security: bcrypt 🔒
+
+Version Control: Git & GitHub 🐙
 
 🎯 Milestones
 
@@ -160,30 +170,49 @@ Built a User Profile Page 🏡
 
 Integrated Address Management 📍
 
+✅ Milestone 21: Address Form 📬
+
+Learning Goals 🎯
+By the end of this milestone, you will:
+
+Create a frontend form to take address input.
+
+Collect country, city, address1, address2, zip code, and address type.
+
+Steps for Milestone 21 📝
+
+Create an address form frontend page.
+
+Implement a state that will store input address data.
+
+When clicking "Add Address" in the profile, navigate to the address form page.
+
+This milestone will help in understanding how to manage address forms.
+
 ▶️ How to Run the Project 🏃‍♂️
 
 📌 Clone the repository
 
- git clone https://github.com/rohitmehta18/-Ecommerce-Follow-Along
- cd E_Commerce_Follow_Along  
+git clone https://github.com/rohitmehta18/Ecommerce-Follow-Along
+cd E_Commerce_Follow_Along
 
 📌 Install dependencies for both frontend and backend
 
- cd frontend && npm install  
- cd ../backend && npm install  
+cd frontend && npm install
+cd ../backend && npm install
 
 📌 Run the backend server 🖥️
 
- npm start  
+npm start
 
 📌 Run the frontend application 🎨
 
- cd frontend  
- npm start  
+cd frontend
+npm start
 
 📌 Open in your browser 🌐
 
- http://localhost:3000/  
+http://localhost:3000/
 
 🚀 Enjoy your E-Commerce Journey! 🛒💖
 
