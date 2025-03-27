@@ -189,7 +189,15 @@
 ✅ **Goals:**  
 - Added "Place Order" button in cart.  
 - Created address selection page with radio buttons.  
-- Designed `Order` schema:  
+- Designed `Order` schema: 
+
+---
+
+### **Milestone 24: Order Confirmation**
+✅ Goals:
+- Built order confirmation page.
+- Displayed ordered products, selected address, and total cart value.
+- Added "Place Order" button at the bottom.
   ```javascript
   const orderSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User' },
