@@ -198,6 +198,18 @@
 - Built order confirmation page.
 - Displayed ordered products, selected address, and total cart value.
 - Added "Place Order" button at the bottom.
+
+---
+
+### **Milestone 25: Placing an Order**
+ ✅ Goals:
+- Created an endpoint to receive products, user details, and address.
+- Retrieved the user’s _id using their email.
+- Stored each product as a separate order with the same address.
+- Saved order details in the MongoDB orders collection using the existing order schema.
+
+---
+
   ```javascript
   const orderSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User' },
