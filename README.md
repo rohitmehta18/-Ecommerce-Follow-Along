@@ -210,6 +210,15 @@
 
 ---
 
+### **Milestone 26: Fetching User Orders**
+ ✅ Goals:
+- Created an endpoint to receive the user's email.
+- Retrieved the user’s _id using their email.
+- Fetched all orders associated with that _id.
+- Sent the user’s orders as a response.
+
+---
+
   ```javascript
   const orderSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User' },
