@@ -219,6 +219,18 @@
 
 ---
 
+### Milestone 27: Creating My Orders Page
+✅ Goals:
+- Created a my-orders page in the frontend.
+- Sent a GET request to the /my-orders endpoint from the frontend.
+- Passed the user's email as a query parameter to fetch their orders.
+- Displayed all the user’s orders on the my-orders page.
+- Added the My Orders link to the navbar for easier navigation.
+
+---
+
+
+
   ```javascript
   const orderSchema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User' },
