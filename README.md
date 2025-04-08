@@ -244,6 +244,39 @@
 
 ---
 
+### Milestone 28: Cancelling Orders
+✅ Goals:
+- Added a "Cancel Order" button for each order on the my-orders page.
+- Ensured that the "Cancel Order" button is not shown for orders that are already canceled.
+- Created a new endpoint that receives the order ID.
+- Retrieved the order using the received order ID.
+- Updated the order’s status to "Canceled" and saved the changes.
+
+---
+
+### Milestone 29: Setting Up PayPal Sandbox and Payment Options
+✅ Goals:
+- Created a PayPal Developer account and logged into the PayPal Developer Dashboard.
+- Accessed the Sandbox Accounts section.
+- Copied and saved the UserID from the sandbox account.
+- Located and saved the Client ID for use in integration.
+- On the Order Confirmation page, added two radio button options:
+# Cash on Delivery (COD)
+# Online Payment
+- Ensured that PayPal payment buttons are displayed only when the Online Payment option is selected.
+
+---
+
+### Milestone 30: Implementing PayPal Online Payment
+✅ Goals:
+- Used the PayPal Client ID obtained from the Sandbox Account.
+- Implemented online payment using the PayPal API and the saved Client ID.
+- Installed the NPM package react-paypal-js to handle PayPal integration in React.
+- Used the PayPalScriptProvider component from react-paypal-js to set up the PayPal script with the client ID.
+- Displayed PayPal payment methods (like Credit or Debit Card) when the Online Payment radio option is selected on the Order Confirmation page.
+
+---
+
 ## 🖥️ How to Run  
 1. **Clone the repo:**  
    ```bash
